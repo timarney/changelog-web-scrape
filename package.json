@@ -1,0 +1,28 @@
+{
+  "name": "changelog-web-scrape",
+  "version": "1.0.0",
+  "description": "Scrapes Changelog Nightly and pulls Top 10 starred",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timarney/changelog-web-scrape.git"
+  },
+  "author": "Tim Arney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timarney/changelog-web-scrape/issues"
+  },
+  "homepage": "https://github.com/timarney/changelog-web-scrape#readme",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0"
+  }
+}
